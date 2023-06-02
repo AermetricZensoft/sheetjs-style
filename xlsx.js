@@ -21600,8 +21600,8 @@ var StyleBuilder = function (options) {
 
 
 	// cache style specs to avoid excessive duplication
-	_hashIndex = {};
-	_listIndex = [];
+	var _hashIndex = {};
+	var _listIndex = [];
 
 	return {
 
